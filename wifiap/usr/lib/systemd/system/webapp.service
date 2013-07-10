@@ -1,0 +1,12 @@
+[Unit]
+Description=Go Web App
+After=network.target
+
+[Service]
+Type=simple
+PIDFile=/run/webapp.pid
+ExecStart=/root/goconnect/bin/webapp
+KillSignal=SIGINT
+
+[Install]
+WantedBy=multi-user.target
