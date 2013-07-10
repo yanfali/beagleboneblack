@@ -23,5 +23,5 @@ My configuration uses WPA2 and limits itself to 2.4GHz 802.11n, so it works well
 
 WiFi Config
 -----------
-The Wifi card is TX power is deliberately throttled down to ensure it doesn't overheat. It also assumes US regulatory frequencies.
+The Wifi card TX power is deliberately throttled down to ensure it doesn't overheat. It also assumes US regulatory frequencies.
 
